@@ -1,0 +1,117 @@
+body {
+	background-image: url("../images/DOTS_BKGRD.jpg");
+}
+
+header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height: 50px;
+	background-color: lightblue;
+}
+
+h1 {
+    font-family: sans-serif;
+	text-align: center;
+	font-size: 45px;
+	color: darkblue;
+
+}
+
+.name {
+    font-family: sans-serif;
+	text-align: center;
+	color: darkblue;
+	padding-top: 10px;
+}
+
+p {
+	color: darkblue;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.instructions {
+    font-family: sans-serif;
+    font-size: 55px;
+	background-color: lightblue;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	height: 200px;
+	margin-top: 20px;
+
+}
+
+.random {
+	display: inline-block;
+	width: 300px;
+	height: 100px;
+}
+
+.number {
+	background-color: orangered;
+	text-align: center;
+	font-size: 50px;
+	margin-right: 10px;
+	width: 120px;
+	height:	80px;
+	color: yellow;
+}
+
+.power > * {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.outcome {
+	background-color: orange;
+    font-family: sans-serif;
+	margin-left: 130px;
+	margin-top: -75px;
+	text-align: center;
+	width: 125px;
+	height: 75px;
+	color: white;
+}
+
+.click {
+    -moz-box-shadow: 5px 5px 5px #555599;
+    -webkit-box-shadow: 5px 5px 5px #555599;
+    box-shadow: 5px 5px 5px #555599;
+    border-radius: 60px;
+    margin-left: auto;
+	margin-right: auto;
+	height: 125px;
+	width: 125px;
+}
+
+.score {
+	background-color: darkblue;
+    font-family: sans-serif;
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 200px;
+	height: 45px;
+}
+
+h3 {
+	padding-top: 5px;
+	color: white;
+}
+
+.math {
+    font-family: sans-serif;
+	background-color: darkorchid;
+	font-size: 55px;
+	color: white;
+    text-align: center;
+	width: 255px;
+	height: 70px;
+}
+
+
+

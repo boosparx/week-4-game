@@ -1,0 +1,42 @@
+
+<!DOCTYPE> 
+<html>
+<head>
+	<title>Character </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script  src="https://code.jquery.com/jquery-2.2.3.js"></script>
+</head>
+<body>
+	<header>
+		<h1 id ="name">Character Power!!</h1>
+	</header>
+	<div class="instructions">
+		<p>You are given a random number to start each game located in the orange box</p>
+		<p>Click any of the four characters to generate a total number that matches the random number</p>
+		<p>Each character click will be added at the bottom of the screen</p>
+		
+	</div>
+	<div class="random">
+		<div class="number"></div>
+
+	<div class="outcome">
+		Win:<div id='wins'></div>
+		Loose:<div id='losses'></div>
+	</div>
+
+	<div class='power'>
+		<img src="assets/images/KITTY.jpg" class='click' id='blue'>
+		<img src="assets/images/GUS.jpg" class='click' id='red'>
+		<img src="assets/images/HAL.jpg" class='click' id='yellow'>
+		<img src="assets/images/SAL.jpg" class='click' id='green'>
+	</div>
+
+	<div class='score'>
+		<h3>Power Total:</h3>
+	</div>
+
+	<div class='math'></div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
